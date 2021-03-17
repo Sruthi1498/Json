@@ -24,7 +24,7 @@ public class File {
                 obj.create();
                 break;
             case 2:
-                System.out.println("Enter the key to be deleted:");
+                System.out.println("Enter the key");
                 String key1 = scan.next();
                 obj.read(key1);
                 break;
